@@ -1,0 +1,583 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Montserrat Font -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700&display=swap" rel="stylesheet">
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="./src/css/bootstrap.min.css">
+    <!-- Feather Icons -->
+    <link rel="stylesheet" href="./src/css/feather.css">
+    <!-- CSS -->
+    <link rel="stylesheet" href="./src/css/style.css">
+    <title>Detail Biography</title>
+</head>
+
+<body>
+
+    <header class="sticky-top">
+        <!--Navbar-->
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <div class="container">
+
+                <div id="mySidenav1" class="sidenav mySidenav">
+                    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                    <ul class="list-unstyled">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Home
+                                <span class="sr-only">(current)</span>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="lifestyle.html">Lifestyle</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="news.html">News</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="single.html">Single Page</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="author.html">Author Page</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="bio.html">Biography Page</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="detailBio.html">Detail Biography Page</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="searchResult.html">Search Result Page</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="404.html">404 Error Page</a>
+                        </li>
+                    </ul>
+                </div>
+                <span class="bars" onclick="openNav()">&#9776;</span>
+
+                <!-- Navbar brand -->
+                <a href="index.html" class="navbar-brand text-uppercase">
+                    <img src="./images/logo.png" alt="logo" class="w-100">
+                </a>
+
+                <a href="#!" id="search" class="nav-link">
+                    <i class="feather-search"></i>
+                    <div class="search-box">
+                        <input type="text" placeholder="" />
+                        <input type="button" value="Search" />
+                    </div>
+                </a>
+            </div>
+        </nav>
+        <!--/.Navbar-->
+    </header>
+
+    <main>
+
+        <!-- BreadCrumb -->
+        <div class="container" aria-label="breadcrumb">
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a href="#">Home</a></li>
+                <li class="breadcrumb-item"><a href="#">Biography</a></li>
+                <li class="breadcrumb-item active">Rihana</li>
+            </ol>
+        </div>
+
+        <!-- Detail biography -->
+        <section class="detail-bio">
+            <div class="container">
+                <h2 class="heading text-uppercase">
+                    <span class="font-weight-bold">Rihanna</span>
+                </h2>
+                <div class="author-section">
+                    <p class="author">By <span><a href="#!" class="name"> James Bond </a></span>2 hours ago</p>
+                </div>
+                <div class="row">
+                    <!-- Left Side -->
+                    <div class="col-lg-9 left">
+                        <div class="row">
+                            <div class="col-12">
+                                <div class="title-border color-bar mb-4">
+                                    <div class="title-box-lg color-bar">Rihanna Profile</div>
+                                </div>
+                            </div>
+                            <!-- image -->
+                            <div class="col-lg-4">
+                                <div class="main-image">
+                                    <figure>
+                                        <img src="./images/rihanna.jpg" alt="image">
+                                    </figure>
+                                </div>
+                            </div>
+                            <!-- Content -->
+                            <div class="col-lg-8">
+                                <div class="contents mb-3">
+                                    <h2 class="contents-heading">Content</h2>
+                                    <ul class="contents-list">
+                                        <li>
+                                            <a href="#!">Is Rihanna Married or
+                                                Still Single?</a>
+                                        </li>
+                                        <li>
+                                            <a href="#!">Relationship
+                                                History Rihanna's Boyfriend</a>
+                                        </li>
+                                        <li>
+                                            <a href="#!">Net Worth of Rihanna</a>
+                                        </li>
+                                        <li>
+                                            <a href="#!">A career as a Singer</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <!-- Facts -->
+                            <div class="col-12">
+                                <div class="title-border color-bar mb-4">
+                                    <div class="title-box-lg color-bar">Facts about Rihanna</div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-6">
+                                <div class="mb-3">
+                                    <div class="small-title">Famous As</div>
+                                    <div class="small-para">R&B Singer</div>
+                                </div>
+                                <div class="mb-3">
+                                    <div class="small-title">Birth Name</div>
+                                    <div class="small-para">Robyn Rihanna Fenty</div>
+                                </div>
+                                <div class="mb-3">
+                                    <div class="small-title">Birth Date</div>
+                                    <div class="small-para">Feb 20, 1988</div>
+                                </div>
+                                <div class="mb-3">
+                                    <div class="small-title">Occupation</div>
+                                    <div class="small-para">Singer, Songwriter, actress, businesswoman</div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-6">
+                                <div class="mb-3">
+                                    <div class="small-title">Years active</div>
+                                    <div class="small-para">2003-Present</div>
+                                </div>
+                                <div class="mb-3">
+                                    <div class="small-title">Organization</div>
+                                    <div class="small-para">Clara Lionel Foundation, Fenty Beauty, Fenty</div>
+                                </div>
+                                <div class="mb-3">
+                                    <div class="small-title">Net Worth</div>
+                                    <div class="small-para">US $600 Million (2019 estimate)</div>
+                                </div>
+                                <div class="mb-3">
+                                    <div class="small-title">Awards</div>
+                                    <div class="small-para">Musical Career</div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-6">
+                                <div class="mb-3">
+                                    <div class="small-title">Origin</div>
+                                    <div class="small-para">Saint Michael, Barbados</div>
+                                </div>
+                                <div class="mb-3">
+                                    <div class="small-title">Genres</div>
+                                    <div class="small-para">R&B, POP, Reggae, Hip-Hop, Dance</div>
+                                </div>
+                                <div class="mb-3">
+                                    <div class="small-title">Instruments</div>
+                                    <div class="small-para">Vocals</div>
+                                </div>
+                                <div class="mb-3">
+                                    <div class="small-title">Website</div>
+                                    <div class="small-para"><a href="https://www.rihanna.com" class="text-dark"
+                                            target="_blank">rihanna.com</a></div>
+                                </div>
+                            </div>
+                            <!-- Paragraph -->
+                            <div class="col-12">
+                                <div class="title-border color-bar my-4">
+                                    <div class="title-box-lg color-bar">Rihanna Biography</div>
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <p class="para">
+                                    Robyn Rihanna Fenty (born February 20, 1988), known by her stage name, Rihanna, is a
+                                    Bajan singer, has sold 94 million albums and 290 million singles worldwide. Being
+                                    the most certified female artist in the history of the United States and the entire
+                                    world of music. is considered by many the greatest artist of the years 2010 and
+                                    elected by several magazines the ARTIST OF THE DECADE. Her song "Umbrella" was one
+                                    of the highest-selling songs of 2007 and her third album Good Girl Gone Bad was
+                                    critically acclaimed, helping propel her to superstar status. She has attained
+                                    fourteen Billboard Hot 100 number ones thus far and is the second Bajan artist to
+                                    win a Grammy Award. She is also a cultural ambassador for Barbados.
+                                </p>
+
+                                <p class="para">
+                                    Rihanna was born in Saint Michael, Barbados to Ronald Fenty, a warehouse supervisor,
+                                    and Monica Fenty, an accountant. Her mother, a native of Guyana, is Afro-Guyanese
+                                    and her father is Bajan and Irish. She is the oldest of three siblings; two younger
+                                    brothers, Rorrey and Rajad Fenty. She began singing at around the age of seven. Her
+                                    childhood was deeply affected by her father's addiction to crack cocaine and
+                                    parent's rocky marriage, which ended when she was fourteen years old. Rihanna
+                                    attended Charles F. Broome Memorial School, a primary school in Barbados, and then
+                                    the Combermere School, where she formed a musical trio with two of her classmates at
+                                    the age of fifteen. In 2004 she won the Miss Combermere Beauty Pageant. She was an
+                                    army cadet in a sub-military programme that trained with the military of Barbados
+                                    and Shontelle was her drill sergeant.
+                                </p>
+                                <p class="para">
+                                    At the age of 15, she formed a girl group with two of her classmates. In 2003,
+                                    friends introduced Rihanna and her two bandmates to record producer Evan Rogers, who
+                                    was vacationing in Barbados with his wife. The group auditioned for Rogers, who said
+                                    that "the minute Rihanna walked into the room, it was like the other two girls
+                                    didn't exist." While auditioning for Rogers, Rihanna sang Destiny's Child's cover of
+                                    "Emotion". Over the next year, Rihanna and her mom shuttled back and forth to Rogers
+                                    home in Stamford, Connecticut. Then, shortly after turning 16, she relocated in the
+                                    United States and moved in with Rogers and his wife. Carl Sturken helped Rihanna
+                                    record a four-song demo, which included the ballad "The Last Time," a cover of
+                                    Whitney Houston’s hit "For the Love of You" and what would become her first hit,
+                                    "Pon de Replay" to send to various recording companies. It took a year to record the
+                                    demos, because she was going to school and would only record during summer and
+                                    Christmas school breaks. Rihanna's demo made its way to Def Jam, which invited her
+                                    to audition for the label's then-president, Jay-Z, who quickly signed her.
+                                </p>
+                                <div class="image">
+                                    <figure>
+                                        <img src="./images/umbrella.jpg" alt="umbrella" class="w-50">
+                                        <p>Source: <a href="#!" title="umbrell" class="text-dark"> www.google.com</a>
+                                        </p>
+                                    </figure>
+                                </div>
+                                <p class="para">Rihanna broke into the recording industry in 2005 with the release of
+                                    her debut album Music of the Sun, which features the number 2 hit single "Pon de
+                                    Replay". Less than a year later, Rihanna released album artist=Rihanna]A Girl Like
+                                    Me and earned her first number-one single, "SOS, which sampled the popular 80s track
+                                    "Tainted Love". "Unfaithful" was also released and was fairly successful.</p>
+                                <p class="para">
+                                    Rihanna released her third album Good Girl Gone Bad in June 2007. Prior to the
+                                    release of the album, she spent the week of the Grammys writing songs for the album
+                                    with Ne-Yo. She adopted a more sexual image while recording the album, eventually
+                                    dying her hair black and cutting it short. Rihanna worked with Timbaland and
+                                    Christopher "Tricky" Stewart, as well as previous musical collaborators such as
+                                    Stargate, Carl Sturken and Evan Rogers to re-imagine her album compositions with
+                                    uptempo dance tracks. Rihanna commented, "I want to keep people dancing but still be
+                                    soulful at the same time. You feel different every album, and [at] this stage I feel
+                                    like I want to do a lot of uptempo [songs]."
+                                </p>
+                                <p class="para">
+                                    The album topped the charts in countries like the United Kingdom, Canada, Japan,
+                                    Brazil, Russia and Ireland, and peaked at number two in the United States and
+                                    Australia. Unlike previous work, the album featured a more dance-pop sound instead
+                                    of the dancehall, reggae and ballad styles. The album received positive reviews by
+                                    critics, becoming her most critically acclaimed album at that time compared to her
+                                    previous efforts.
+
+                                    It yielded eight hit singles - "Umbrella" "Shut Up and Drive", "Don't Stop The
+                                    Music" "Hate That I Love You" "Rehab" "Disturbia" "Take A Bow" "If I Never See Your
+                                    Face Again" - all singles reaching the top twenty on the Billboard Hot 100 —
+                                    including the worldwide number-one hit "Umbrella," featuring Jay-Z.
+                                </p>
+                                <p class="para">
+                                    On January 28, 2016, Rihanna released her eighth studio album ANTI exclusively
+                                    through streaming service Tidal. The album peaked at number one on the US Billboard
+                                    200, becoming Rihanna's second number one and eighth top ten album on the chart. The
+                                    album was supported by the release of four singles including the lead single "Work"
+                                    featuring Drake, which topped the Billboard Hot 100. Further platinum singles
+                                    "Needed Me" and "Love on the Brain" both peaked inside the top ten of the Hot 100.
+                                    In 2016, Rihanna was featured on several singles. The first collaboration was Calvin
+                                    Harris' "This Is What You Came For," which reached number three on the Billboard Hot
+                                    100 and number two in the United Kingdom. Rihanna was also featured on Drake's "Too
+                                    Good" from his album Views and Mike Will Made It's single, "Nothing Is Promised". On
+                                    June 27, 2016, Rihanna released "Sledgehammer", the lead single from the Star Trek
+                                    Beyond soundtrack. On August 28, Rihanna was honored with the MTV Video Vanguard
+                                    Award at the 2016 MTV Video Music Awards. Rihanna was elected artist of the decade
+                                    of 2010 by Pitchfork, Insider, Lofficiel among other major music magazines.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Right Side -->
+                    <div class="col-lg-3 mt-4 right">
+                        <div class="row">
+                            <div class="col-12">
+                                <div class="title-border color-bar mb-4">
+                                    <div class="title-box-lg color-bar">Share</div>
+                                </div>
+                            </div>
+                            <div class="col-12 social">
+                                <a href="#!" class="btn btn-fb">
+                                    <i class="feather-facebook"></i>
+                                </a>
+                                <a href="#!" class="btn btn-twitter">
+                                    <i class="feather-twitter"></i>
+                                </a>
+                                <a href="#!" class="btn btn-insta">
+                                    <i class="feather-instagram"></i></i>
+                                </a>
+                                <a href="#!" class="btn btn-yt">
+                                    <i class="feather-youtube"></i>
+                                </a>
+                            </div>
+                            <div class="col-12 mt-3">
+                                <div class="title-border color-bar mb-4">
+                                    <div class="title-box-lg color-bar">Subscribe</div>
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <div class="subscribe">
+                                    <h3>Subscribe for more!</h3>
+                                    <strong>Get the latest content right in your inbox.</strong>
+                                    <form onsubmit="event.preventDefault()">
+                                        <input class="form-control" type="email" placeholder="Email Address">
+                                        <button class="btn submit-btn">Subscribe</button>
+                                        <small>By subscribing, you agree
+                                            to the <a href="#!">Terms &amp; Conditions.</a>
+                                        </small>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- Related Posts -->
+        <section class="related-grid">
+            <h2 class="line my-5">Related Posts</h2>
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="grid">
+                            <div class="grid-item">
+                                <div class="image">
+                                    <figure>
+                                        <a href="#!" title="beauty"><img src="./images/10.jpg" alt="beauty"
+                                                class="w-100"></a>
+                                    </figure>
+                                </div>
+
+                                <div class="title">
+                                    <a href="#!"><small class="category">Lifestyle</small></a>
+                                    <a href="#!" title="title">
+                                        <h2 class="small-title">Selena Gomez Is Launching Rare Beauty Makeup</h2>
+                                    </a>
+                                </div>
+                                <div class="author-section">
+                                    <p class="author">By <span><a href="#!" class="name"> James Bond </a></span>2 hours
+                                        ago</p>
+                                </div>
+                            </div>
+                            <div class="grid-item">
+                                <div class="image">
+                                    <figure>
+                                        <a href="#!" title="beauty"><img src="./images/11.jpg" alt="beauty"
+                                                class="w-100"></a>
+                                    </figure>
+                                </div>
+
+                                <div class="title">
+                                    <a href="#!"><small class="category">Lifestyle</small></a>
+                                    <a href="#!" title="title">
+                                        <h2 class="small-title">Selena Gomez Is Launching Rare Beauty Makeup</h2>
+                                    </a>
+                                </div>
+                                <div class="author-section">
+                                    <p class="author">By <span><a href="#!" class="name"> James Bond </a></span>2 hours
+                                        ago</p>
+                                </div>
+                            </div>
+                            <div class="grid-item">
+                                <div class="image">
+                                    <figure>
+                                        <a href="#!" title="beauty"><img src="./images/12.jpg" alt="beauty"
+                                                class="w-100"></a>
+                                    </figure>
+                                </div>
+
+                                <div class="title">
+                                    <a href="#!"><small class="category">Lifestyle</small></a>
+                                    <a href="#!" title="title">
+                                        <h2 class="small-title">Selena Gomez Is Launching Rare Beauty Makeup</h2>
+                                    </a>
+                                </div>
+                                <div class="author-section">
+                                    <p class="author">By <span><a href="#!" class="name"> James Bond </a></span>2 hours
+                                        ago</p>
+                                </div>
+                            </div>
+                            <div class="grid-item">
+                                <div class="image">
+                                    <figure>
+                                        <a href="#!" title="beauty"><img src="./images/13.jpg" alt="beauty"
+                                                class="w-100"></a>
+                                    </figure>
+                                </div>
+
+                                <div class="title">
+                                    <a href="#!"><small class="category">Lifestyle</small></a>
+                                    <a href="#!" title="title">
+                                        <h2 class="small-title">Selena Gomez Is Launching Rare Beauty Makeup</h2>
+                                    </a>
+                                </div>
+                                <div class="author-section">
+                                    <p class="author">By <span><a href="#!" class="name"> James Bond </a></span>2 hours
+                                        ago</p>
+                                </div>
+                            </div>
+                            <div class="grid-item">
+                                <div class="image">
+                                    <figure>
+                                        <a href="#!" title="beauty"><img src="./images/14.jpg" alt="beauty"
+                                                class="w-100"></a>
+                                    </figure>
+                                </div>
+
+                                <div class="title">
+                                    <a href="#!"><small class="category">Lifestyle</small></a>
+                                    <a href="#!" title="title">
+                                        <h2 class="small-title">Selena Gomez Is Launching Rare Beauty Makeup</h2>
+                                    </a>
+                                </div>
+                                <div class="author-section">
+                                    <p class="author">By <span><a href="#!" class="name"> James Bond </a></span>2 hours
+                                        ago</p>
+                                </div>
+                            </div>
+                            <div class="grid-item">
+                                <div class="image">
+                                    <figure>
+                                        <a href="#!" title="beauty"><img src="./images/15.jpg" alt="beauty"
+                                                class="w-100"></a>
+                                    </figure>
+                                </div>
+
+                                <div class="title">
+                                    <a href="#!"><small class="category">Lifestyle</small></a>
+                                    <a href="#!" title="title">
+                                        <h2 class="small-title">Selena Gomez Is Launching Rare Beauty Makeup</h2>
+                                    </a>
+                                </div>
+                                <div class="author-section">
+                                    <p class="author">By <span><a href="#!" class="name"> James Bond </a></span>2 hours
+                                        ago</p>
+                                </div>
+                            </div>
+                            <div class="grid-item">
+                                <div class="image">
+                                    <figure>
+                                        <a href="#!" title="beauty"><img src="./images/16.jpg" alt="beauty"
+                                                class="w-100"></a>
+                                    </figure>
+                                </div>
+
+                                <div class="title">
+                                    <a href="#!"><small class="category">Lifestyle</small></a>
+                                    <a href="#!" title="title">
+                                        <h2 class="small-title">Selena Gomez Is Launching Rare Beauty Makeup</h2>
+                                    </a>
+                                </div>
+                                <div class="author-section">
+                                    <p class="author">By <span><a href="#!" class="name"> James Bond </a></span>2 hours
+                                        ago</p>
+                                </div>
+                            </div>
+                            <div class="grid-item">
+                                <div class="image">
+                                    <figure>
+                                        <a href="#!" title="beauty"><img src="./images/10.jpg" alt="beauty"
+                                                class="w-100"></a>
+                                    </figure>
+                                </div>
+
+                                <div class="title">
+                                    <a href="#!"><small class="category">Lifestyle</small></a>
+                                    <a href="#!" title="title">
+                                        <h2 class="small-title">Selena Gomez Is Launching Rare Beauty Makeup</h2>
+                                    </a>
+                                </div>
+                                <div class="author-section">
+                                    <p class="author">By <span><a href="#!" class="name"> James Bond </a></span>2 hours
+                                        ago</p>
+                                </div>
+                            </div>
+                            <div class="grid-item">
+                                <div class="image">
+                                    <figure>
+                                        <a href="#!" title="beauty"><img src="./images/11.jpg" alt="beauty"
+                                                class="w-100"></a>
+                                    </figure>
+                                </div>
+
+                                <div class="title">
+                                    <a href="#!"><small class="category">Lifestyle</small></a>
+                                    <a href="#!" title="title">
+                                        <h2 class="small-title">Selena Gomez Is Launching Rare Beauty Makeup</h2>
+                                    </a>
+                                </div>
+                                <div class="author-section">
+                                    <p class="author">By <span><a href="#!" class="name"> James Bond </a></span>2 hours
+                                        ago</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
+    </main>
+
+
+
+    <!-- Footer -->
+    <footer class="page-footer font-small mt-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <div class="flex-center">
+                        <a href="#!" class="fb-ic">
+                            <i class="fab fa-facebook-f fa-2x"> </i>
+                        </a>
+                        <a href="#!" class="tw-ic">
+                            <i class="fab fa-twitter fa-2x"> </i>
+                        </a>
+                        <a href="#!" class="li-ic">
+                            <i class="fab fa-linkedin-in fa-2x"> </i>
+                        </a>
+                        <a href="#!" class="ins-ic">
+                            <i class="fab fa-instagram fa-2x"> </i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="text-center py-3 text-light">© 2020 Copyright:
+            <a href="#!" class="text-light"> Top Nepal International. All rights reserved.</a>
+        </div>
+    </footer>
+
+    <!-- Back to top -->
+    <div class="back-to-top">
+        <a id="back2Top" title="Back to top" href="#">
+            <i class="feather-chevron-up"></i>
+        </a>
+    </div>
+
+    <!-- JQuery -->
+    <script src="./src/js/jquery.min.js"></script>
+    <!-- Popper JS -->
+    <script src="./src/js/popper.min.js"></script>
+    <!-- Bootstrap JS -->
+    <script src="./src/js/bootstrap.min.js"></script>
+    <!-- Custom JS -->
+    <script src="./src/js/script.js"></script>
+</body>
+
+</html>

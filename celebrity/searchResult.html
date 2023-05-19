@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Montserrat Font -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700&display=swap" rel="stylesheet">
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="./src/css/bootstrap.min.css">
+    <!-- Feather Icons -->
+    <link rel="stylesheet" href="./src/css/feather.css">
+    <!-- CSS -->
+    <link rel="stylesheet" href="./src/css/style.css">
+    <title>Detail Biography</title>
+</head>
+
+<body>
+
+    <header class="sticky-top">
+        <!--Navbar-->
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <div class="container">
+
+                <div id="mySidenav1" class="sidenav mySidenav">
+                    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                    <ul class="list-unstyled">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Home
+                                <span class="sr-only">(current)</span>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="lifestyle.html">Lifestyle</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="news.html">News</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="single.html">Single Page</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="author.html">Author Page</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="bio.html">Biography Page</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="detailBio.html">Detail Biography Page</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="searchResult.html">Search Result Page</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="404.html">404 Error Page</a>
+                        </li>
+                    </ul>
+                </div>
+                <span class="bars" onclick="openNav()">&#9776;</span>
+
+                <!-- Navbar brand -->
+                <a href="index.html" class="navbar-brand text-uppercase">
+                    <img src="./images/logo.png" alt="logo" class="w-100">
+                </a>
+
+                <a href="#!" id="search" class="nav-link">
+                    <i class="feather-search"></i>
+                    <div class="search-box">
+                        <input type="text" placeholder="" />
+                        <input type="button" value="Search" />
+                    </div>
+                </a>
+            </div>
+        </nav>
+        <!--/.Navbar-->
+    </header>
+
+    <main>
+
+        <!-- Search Result -->
+        <div class="search-result">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 text-center">
+                        <h3 class="text-uppercase heading font-weight-bold">Search Results For <span
+                                class="search-title">"..."</span>
+                        </h3>
+                        <hr class="hr">
+                    </div>
+                </div>
+
+                <!-- Results -->
+                <div class="row mt-4">
+                    <div class="col-md-4 col-6">
+                        <div class="result-thumbnail">
+                            <figure class="m-0">
+                                <img src="./images/9.jpg" alt="search-image" class="w-100">
+                            </figure>
+                        </div>
+                    </div>
+                    <div class="col-md-8 col-6">
+                        <div class="result-detail">
+                            <h3 class="small-title">Search Result 1</h3>
+                            <div class="search-author">
+                                <div class="author-section">
+                                    <p class="author">By <span><a href="#!" class="name"> James Bond </a></span>2 hours
+                                        ago</p>
+                                </div>
+                                <p class="para">
+                                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ducimus delectus nulla
+                                    alias
+                                    rem
+                                    fugiat est soluta qui sequi laudantium, tenetur dignissimos fuga corrupti velit
+                                    expedita
+                                    nobis
+                                    nesciunt magnam beatae cumque! Autem amet neque voluptatem sit
+                                </p>
+                                <a href="#!" class="btn readBtn">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row mt-4">
+                    <div class="col-md-4 col-6">
+                        <div class="result-thumbnail">
+                            <figure class="m-0">
+                                <img src="./images/10.jpg" alt="search-image" class="w-100">
+                            </figure>
+                        </div>
+                    </div>
+                    <div class="col-md-8 col-6">
+                        <div class="result-detail">
+                            <h3 class="small-title">Search Result 2</h3>
+                            <div class="search-author">
+                                <div class="author-section">
+                                    <p class="author">By <span><a href="#!" class="name"> James Bond </a></span>2 hours
+                                        ago</p>
+                                </div>
+                                <p class="para">
+                                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ducimus delectus nulla
+                                    alias
+                                    rem
+                                    fugiat est soluta qui sequi laudantium, tenetur dignissimos fuga corrupti velit
+                                    expedita
+                                    nobis
+                                    nesciunt magnam beatae cumque! Autem amet neque voluptatem sit
+                                </p>
+                                <a href="#!" class="btn readBtn">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row mt-4">
+                    <div class="col-md-4 col-6">
+                        <div class="result-thumbnail">
+                            <figure class="m-0">
+                                <img src="./images/11.jpg" alt="search-image" class="w-100">
+                            </figure>
+                        </div>
+                    </div>
+                    <div class="col-md-8 col-6">
+                        <div class="result-detail">
+                            <h3 class="small-title">Search Result 3</h3>
+                            <div class="search-author">
+                                <div class="author-section">
+                                    <p class="author">By <span><a href="#!" class="name"> James Bond </a></span>2 hours
+                                        ago</p>
+                                </div>
+                                <p class="para">
+                                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ducimus delectus nulla
+                                    alias
+                                    rem
+                                    fugiat est soluta qui sequi laudantium, tenetur dignissimos fuga corrupti velit
+                                    expedita
+                                    nobis
+                                    nesciunt magnam beatae cumque! Autem amet neque voluptatem sit
+                                </p>
+                                <a href="#!" class="btn readBtn">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row mt-4">
+                    <div class="col-md-4 col-6">
+                        <div class="result-thumbnail">
+                            <figure class="m-0">
+                                <img src="./images/12.jpg" alt="search-image" class="w-100">
+                            </figure>
+                        </div>
+                    </div>
+                    <div class="col-md-8 col-6">
+                        <div class="result-detail">
+                            <h3 class="small-title">Search Result 4</h3>
+                            <div class="search-author">
+                                <div class="author-section">
+                                    <p class="author">By <span><a href="#!" class="name"> James Bond </a></span>2 hours
+                                        ago</p>
+                                </div>
+                                <p class="para">
+                                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ducimus delectus nulla
+                                    alias
+                                    rem
+                                    fugiat est soluta qui sequi laudantium, tenetur dignissimos fuga corrupti velit
+                                    expedita
+                                    nobis
+                                    nesciunt magnam beatae cumque! Autem amet neque voluptatem sit
+                                </p>
+                                <a href="#!" class="btn readBtn">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row mt-4">
+                    <div class="col-md-4 col-6">
+                        <div class="result-thumbnail">
+                            <figure class="m-0">
+                                <img src="./images/13.jpg" alt="search-image" class="w-100">
+                            </figure>
+                        </div>
+                    </div>
+                    <div class="col-md-8 col-6">
+                        <div class="result-detail">
+                            <h3 class="small-title">Search Result 5</h3>
+                            <div class="search-author">
+                                <div class="author-section">
+                                    <p class="author">By <span><a href="#!" class="name"> James Bond </a></span>2 hours
+                                        ago</p>
+                                </div>
+                                <p class="para">
+                                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ducimus delectus nulla
+                                    alias
+                                    rem
+                                    fugiat est soluta qui sequi laudantium, tenetur dignissimos fuga corrupti velit
+                                    expedita
+                                    nobis
+                                    nesciunt magnam beatae cumque! Autem amet neque voluptatem sit
+                                </p>
+                                <a href="#!" class="btn readBtn">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row mt-4">
+                    <div class="col-md-4 col-6">
+                        <div class="result-thumbnail">
+                            <figure class="m-0">
+                                <img src="./images/14.jpg" alt="search-image" class="w-100">
+                            </figure>
+                        </div>
+                    </div>
+                    <div class="col-md-8 col-6">
+                        <div class="result-detail">
+                            <h3 class="small-title">Search Result 6</h3>
+                            <div class="search-author">
+                                <div class="author-section">
+                                    <p class="author">By <span><a href="#!" class="name"> James Bond </a></span>2 hours
+                                        ago</p>
+                                </div>
+                                <p class="para">
+                                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ducimus delectus nulla
+                                    alias
+                                    rem
+                                    fugiat est soluta qui sequi laudantium, tenetur dignissimos fuga corrupti velit
+                                    expedita
+                                    nobis
+                                    nesciunt magnam beatae cumque! Autem amet neque voluptatem sit
+                                </p>
+                                <a href="#!" class="btn readBtn">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row mt-4">
+                    <div class="col-md-4 col-6">
+                        <div class="result-thumbnail">
+                            <figure class="m-0">
+                                <img src="./images/15.jpg" alt="search-image" class="w-100">
+                            </figure>
+                        </div>
+                    </div>
+                    <div class="col-md-8 col-6">
+                        <div class="result-detail">
+                            <h3 class="small-title">Search Result 7</h3>
+                            <div class="search-author">
+                                <div class="author-section">
+                                    <p class="author">By <span><a href="#!" class="name"> James Bond </a></span>2 hours
+                                        ago</p>
+                                </div>
+                                <p class="para">
+                                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ducimus delectus nulla
+                                    alias
+                                    rem
+                                    fugiat est soluta qui sequi laudantium, tenetur dignissimos fuga corrupti velit
+                                    expedita
+                                    nobis
+                                    nesciunt magnam beatae cumque! Autem amet neque voluptatem sit
+                                </p>
+                                <a href="#!" class="btn readBtn">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row mt-4">
+                    <div class="col-md-4 col-6">
+                        <div class="result-thumbnail">
+                            <figure class="m-0">
+                                <img src="./images/17.jpg" alt="search-image" class="w-100">
+                            </figure>
+                        </div>
+                    </div>
+                    <div class="col-md-8 col-6">
+                        <div class="result-detail">
+                            <h3 class="small-title">Search Result 8</h3>
+                            <div class="search-author">
+                                <div class="author-section">
+                                    <p class="author">By <span><a href="#!" class="name"> James Bond </a></span>2 hours
+                                        ago</p>
+                                </div>
+                                <p class="para">
+                                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ducimus delectus nulla
+                                    alias
+                                    rem
+                                    fugiat est soluta qui sequi laudantium, tenetur dignissimos fuga corrupti velit
+                                    expedita
+                                    nobis
+                                    nesciunt magnam beatae cumque! Autem amet neque voluptatem sit
+                                </p>
+                                <a href="#!" class="btn readBtn">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row mt-4">
+                    <div class="col-md-4 col-6">
+                        <div class="result-thumbnail">
+                            <figure class="m-0">
+                                <img src="./images/18.jpg" alt="search-image" class="w-100">
+                            </figure>
+                        </div>
+                    </div>
+                    <div class="col-md-8 col-6">
+                        <div class="result-detail">
+                            <h3 class="small-title">Search Result 9</h3>
+                            <div class="search-author">
+                                <div class="author-section">
+                                    <p class="author">By <span><a href="#!" class="name"> James Bond </a></span>2 hours
+                                        ago</p>
+                                </div>
+                                <p class="para">
+                                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ducimus delectus nulla
+                                    alias
+                                    rem
+                                    fugiat est soluta qui sequi laudantium, tenetur dignissimos fuga corrupti velit
+                                    expedita
+                                    nobis
+                                    nesciunt magnam beatae cumque! Autem amet neque voluptatem sit
+                                </p>
+                                <a href="#!" class="btn readBtn">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row mt-4">
+                    <div class="col-md-4 col-6">
+                        <div class="result-thumbnail">
+                            <figure class="m-0">
+                                <img src="./images/19.jpg" alt="search-image" class="w-100">
+                            </figure>
+                        </div>
+                    </div>
+                    <div class="col-md-8 col-6">
+                        <div class="result-detail">
+                            <h3 class="small-title">Search Result 10</h3>
+                            <div class="search-author">
+                                <div class="author-section">
+                                    <p class="author">By <span><a href="#!" class="name"> James Bond </a></span>2 hours
+                                        ago</p>
+                                </div>
+                                <p class="para">
+                                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ducimus delectus nulla
+                                    alias
+                                    rem
+                                    fugiat est soluta qui sequi laudantium, tenetur dignissimos fuga corrupti velit
+                                    expedita
+                                    nobis
+                                    nesciunt magnam beatae cumque! Autem amet neque voluptatem sit
+                                </p>
+                                <a href="#!" class="btn readBtn">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+
+    </main>
+
+
+
+    <!-- Footer -->
+    <footer class="page-footer font-small mt-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <div class="flex-center">
+                        <a href="#!" class="fb-ic">
+                            <i class="fab fa-facebook-f fa-2x"> </i>
+                        </a>
+                        <a href="#!" class="tw-ic">
+                            <i class="fab fa-twitter fa-2x"> </i>
+                        </a>
+                        <a href="#!" class="li-ic">
+                            <i class="fab fa-linkedin-in fa-2x"> </i>
+                        </a>
+                        <a href="#!" class="ins-ic">
+                            <i class="fab fa-instagram fa-2x"> </i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="text-center py-3 text-light">© 2020 Copyright:
+            <a href="#!" class="text-light"> Top Nepal International. All rights reserved.</a>
+        </div>
+    </footer>
+
+    <!-- Back to top -->
+    <div class="back-to-top">
+        <a id="back2Top" title="Back to top" href="#">
+            <i class="feather-chevron-up"></i>
+        </a>
+    </div>
+
+    <!-- JQuery -->
+    <script src="./src/js/jquery.min.js"></script>
+    <!-- Popper JS -->
+    <script src="./src/js/popper.min.js"></script>
+    <!-- Bootstrap JS -->
+    <script src="./src/js/bootstrap.min.js"></script>
+    <!-- Custom JS -->
+    <script src="./src/js/script.js"></script>
+</body>
+
+</html>
